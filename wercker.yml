@@ -2,5 +2,5 @@ box: ubuntu:17.10
 build:
     steps:
       - internal/docker-run:
-          image: gauravagnihotri/docker-build-golang
+          image: golang
           name: myTestContainer
