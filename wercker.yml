@@ -1,12 +1,12 @@
 build:
-box: ubuntu:17.10
-      id: gauravaagnihotri/docker-build-ubuntu
-      username: $USERNAME
-      password: $PASSWORD
-    steps:
-      - internal/docker-run:
-          image: gauravagnihotri/docker-build-golang
-          name: myTestContainer
-          username: $DOCKER_USERNAME
-          password: $DOCKER_PASSWORD
-          registry: $DOCKER_RGISTRY
+  box:
+    id: gauravaagnihotri/docker-build-ubuntu
+    username: $USERNAME
+    password: $PASSWORD
+  steps:
+    - internal/docker-run:
+      image: gauravagnihotri/docker-build-golang
+      name: myTestContainer
+      username: $DOCKER_USERNAME
+      password: $DOCKER_PASSWORD
+      registry: $DOCKER_RGISTRY
