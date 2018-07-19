@@ -2,7 +2,8 @@ box: ubuntu:17.10
 build:
     steps:
       - internal/docker-run:
-          image: golang
+          image: gauravagnihotri/docker-build-golang
           name: myTestContainer
           username: $DOCKER_USERNAME
           password: $DOCKER_PASSWORD
+          registry: $DOCKER_RGISTRY
