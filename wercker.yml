@@ -6,4 +6,4 @@ build:
           name: myTestContainer
           username: $DOCKER_USERNAME
           password: $DOCKER_PASSWORD
-          registry: https://index.docker.io/v1/
+          registry: DOCKER_RGISTRY
