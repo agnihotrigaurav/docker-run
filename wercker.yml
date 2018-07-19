@@ -4,6 +4,3 @@ build:
       - internal/docker-run:
           image: gauravagnihotri/docker-build-golang
           name: myTestContainer
-          username: $DOCKER_USERNAME
-          password: $DOCKER_PASSWORD
-          registry: https://index.docker.io/v1/
